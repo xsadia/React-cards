@@ -1,0 +1,51 @@
+body {
+    background:#0f1923;
+    font-family: 'Lobster Two', cursive;
+    color: #ff4655;
+}
+.Deck-cardarea {
+    margin-top: 80px;
+}
+
+.Deck-btn {
+    width: 100%;
+    max-width: 240px;
+    height: 45px;
+    border-radius: 0;
+    padding: 10px 20px;
+    background-color: #ece8e1;
+    color: #ff4655;
+    border: solid 2px#ff4655;
+    font-weight: 700;
+    font-size: 1.2em;
+    transition: 0.5s;
+    font-family: 'Lobster Two', cursive;
+    outline:none
+}
+
+.Deck-btn:hover {
+    background: #ff4655;
+    color: #ece8e1;
+}
+
+.Deck-header {
+    font-size: 3.0em;
+}
+
+.fas-star:hover {
+    color: #ece8e1;
+}
+
+.rotate {
+    animation: rotating 4s linear infinite;
+}
+
+@keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
